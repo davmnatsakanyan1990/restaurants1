@@ -1,0 +1,102 @@
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      transition-property: opacity;
+    }
+
+    .item,
+    .active.left,
+    .active.right {
+      opacity: 0;
+    }
+
+    .active,
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+
+    .next,
+    .prev,
+    .active.left,
+    .active.right {
+      left: 0;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .carousel-control {
+    z-index: 2;
+  }
+}
+
+
+
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+  &.myCustomItems{
+    height: 600px;
+    padding: 40px 0 30px 0;
+    //max-width: 900px;
+   // margin: 0 auto;
+    .deliveryItem{
+      font-size: 32px;
+      font-weight: 600;
+      color: #3a3c52;
+    }
+    .ItemLogo{
+      margin: 0 auto;
+      padding-top: 40px;
+    }
+    .customText{
+      font-size: 24px;
+      font-weight: 400;
+      color: #3a3c52;
+    }
+    .customTextSmall{
+      font-size: 18px;
+      font-weight: 400;
+      color: #3a3c52;
+    }
+    .noBold{
+      font-weight: 400;
+    }
+    .bold{
+      font-weight: 700;
+    }
+    .transparentText{
+      opacity: 0.8;
+      font-size: 18px;
+      color: #3a3c52;
+      font-weight: 700;
+    }
+    .markText{
+      color: #00897B;
+    }
+    .contentWithImage{
+      width: 750px;
+      margin: 0 auto;
+    }
+    .textLeft{
+      text-align: left;
+    }
+  }
+}
+.innerCustom{
+  text-align: center;
+}
+
+.carouselControlCustom{
+  top: 50%;
+  background: transparent;
+  height: 50px;
+  font-size: 80px;
+  color: #3a3c52;
+}
+
+
+
+

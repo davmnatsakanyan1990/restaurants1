@@ -1,0 +1,20 @@
+#hearts { color: #ee8b2d;}
+#hearts-existing { color: #ee8b2d;}
+
+.starrr {
+    display: inline-block; }
+.starrr a {
+    font-size: 22px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #ee8b2d;
+    text-decoration: none; }
+.starrr a:hover{
+    color: #ee8b2d;
+}
+.starrr a:active {
+    color: #ee8b2d;
+}
+.starrr a:focus{
+    color: #ee8b2d;
+}

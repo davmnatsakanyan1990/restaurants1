@@ -1,0 +1,105 @@
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+.carousel.myCustomItems,
+.carousel-inner.myCustomItems,
+.carousel-inner .item.myCustomItems {
+  height: 600px;
+  padding: 40px 0 30px 0;
+}
+.carousel.myCustomItems .deliveryItem,
+.carousel-inner.myCustomItems .deliveryItem,
+.carousel-inner .item.myCustomItems .deliveryItem {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3a3c52;
+}
+.carousel.myCustomItems .ItemLogo,
+.carousel-inner.myCustomItems .ItemLogo,
+.carousel-inner .item.myCustomItems .ItemLogo {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.carousel.myCustomItems .customText,
+.carousel-inner.myCustomItems .customText,
+.carousel-inner .item.myCustomItems .customText {
+  font-size: 24px;
+  font-weight: 400;
+  color: #3a3c52;
+}
+.carousel.myCustomItems .customTextSmall,
+.carousel-inner.myCustomItems .customTextSmall,
+.carousel-inner .item.myCustomItems .customTextSmall {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3a3c52;
+}
+.carousel.myCustomItems .noBold,
+.carousel-inner.myCustomItems .noBold,
+.carousel-inner .item.myCustomItems .noBold {
+  font-weight: 400;
+}
+.carousel.myCustomItems .bold,
+.carousel-inner.myCustomItems .bold,
+.carousel-inner .item.myCustomItems .bold {
+  font-weight: 700;
+}
+.carousel.myCustomItems .transparentText,
+.carousel-inner.myCustomItems .transparentText,
+.carousel-inner .item.myCustomItems .transparentText {
+  opacity: 0.8;
+  font-size: 18px;
+  color: #3a3c52;
+  font-weight: 700;
+}
+.carousel.myCustomItems .markText,
+.carousel-inner.myCustomItems .markText,
+.carousel-inner .item.myCustomItems .markText {
+  color: #00897B;
+}
+.carousel.myCustomItems .contentWithImage,
+.carousel-inner.myCustomItems .contentWithImage,
+.carousel-inner .item.myCustomItems .contentWithImage {
+  width: 750px;
+  margin: 0 auto;
+}
+.carousel.myCustomItems .textLeft,
+.carousel-inner.myCustomItems .textLeft,
+.carousel-inner .item.myCustomItems .textLeft {
+  text-align: left;
+}
+.innerCustom {
+  text-align: center;
+}
+.carouselControlCustom {
+  top: 50%;
+  background: transparent;
+  height: 50px;
+  font-size: 80px;
+  color: #3a3c52;
+}
